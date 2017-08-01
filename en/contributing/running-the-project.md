@@ -46,6 +46,7 @@ composer require drupal/console-develop --dev
 drupal develop:create:symlinks \
 --code-directory=/Users/username/drupal-console-code/
 ```
+> NOTE: Make sure that the [`drupal-console`](https://github.com/hechoendrupal/drupal-console) repository is cloned under `drupal-console` directory. If not, manually rename the directory as `mv DrupalConsole drupal-console`. Otherwise, `develop:create:symlinks` will not symlink the `drupal-console` repository.
 
 ## Downloading additional Drupal Console language or packages
 
